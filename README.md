@@ -1,8 +1,13 @@
 # Designing NoSQL Databases Based on Multiple Requirement Views
 
-<p align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="70" alt="MongoDB"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="70" alt="JSON"/> </p>
-
-<p align="center"> <strong>MongoDB • NoSQL • JSON • JSON Schema • Database Architecture</strong> </p>
+![MongoDB](https://img.shields.io/badge/MongoDB-8.0%2B-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![NoSQL](https://img.shields.io/badge/Database-NoSQL-4A90E2?style=for-the-badge)
+![JSON](https://img.shields.io/badge/Data-JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![JSON Schema](https://img.shields.io/badge/JSON%20Schema-Validation-8A2BE2?style=for-the-badge&logo=json&logoColor=white)
+![MongoDB Aggregation](https://img.shields.io/badge/MongoDB-Aggregation-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MongoDB Sharding](https://img.shields.io/badge/MongoDB-Sharding-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MongoDB Replica Set](https://img.shields.io/badge/MongoDB-Replica%20Set-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ## Overview
 
