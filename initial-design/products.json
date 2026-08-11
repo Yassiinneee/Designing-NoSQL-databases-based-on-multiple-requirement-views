@@ -1,0 +1,36 @@
+[
+{
+  "_id": "PROD001",
+  "name": "Laptop Lenovo ThinkPad",
+  "description": "Business laptop with Intel Core i7 processor",
+  "category": "Computers",
+  "brand": "Lenovo",
+  "price": 3200,
+  "currency": "TND",
+  "stock": 45,
+  "tags": [
+    "laptop",
+    "business",
+    "computer",
+    "lenovo"
+  ],
+  "createdAt": "2026-08-11T10:00:00Z"
+},
+
+{
+  "_id": "PROD002",
+  "name": "Logitech Wireless Mouse",
+  "description": "Wireless ergonomic computer mouse",
+  "category": "Accessories",
+  "brand": "Logitech",
+  "price": 120,
+  "currency": "TND",
+  "stock": 150,
+  "tags": [
+    "mouse",
+    "wireless",
+    "accessory"
+  ],
+  "createdAt": "2026-08-11T10:05:00Z"
+}
+]

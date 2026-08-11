@@ -1,0 +1,37 @@
+{
+  "_id": "ORD001",
+  "userId": "USR001",
+  "customer": {
+    "name": "Yassine Kaltoum",
+    "email": "yassine@example.com"
+  },
+  "items": [
+    {
+      "productId": "PROD001",
+      "name": "Laptop Lenovo ThinkPad",
+      "quantity": 1,
+      "unitPrice": 3200,
+      "total": 3200
+    },
+    {
+      "productId": "PROD002",
+      "name": "Logitech Wireless Mouse",
+      "quantity": 2,
+      "unitPrice": 120,
+      "total": 240
+    }
+  ],
+  "totalAmount": 3440,
+  "currency": "TND",
+  "status": "processing",
+  "delivery": {
+    "status": "preparing",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Sousse",
+      "country": "Tunisia"
+    }
+  },
+  "createdAt": "2026-08-11T11:00:00Z",
+  "updatedAt": "2026-08-11T11:00:00Z"
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "ORD100001",
+  "userId": "USR001",
+  "customer": {
+    "name": "Yassine Kaltoum",
+    "email": "yassine@example.com"
+  },
+  "items": [
+    {
+      "productId": "PROD001",
+      "name": "Laptop Lenovo ThinkPad",
+      "category": "Computers",
+      "quantity": 1,
+      "unitPrice": 3200,
+      "total": 3200
+    }
+  ],
+  "totalAmount": 3200,
+  "status": "processing",
+  "delivery": {
+    "status": "preparing",
+    "address": {
+      "city": "Sousse",
+      "country": "Tunisia"
+    }
+  },
+  "createdAt": "2026-08-11T11:40:00Z",
+  "updatedAt": "2026-08-11T11:40:00Z"
+}

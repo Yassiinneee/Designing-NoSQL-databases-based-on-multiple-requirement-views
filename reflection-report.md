@@ -1,0 +1,9 @@
+# Short Reflection Report
+
+The main challenge during the schema refactor was balancing high transaction performance with the new analytical and availability requirements. The initial MongoDB design focused mainly on operational queries such as browsing products, searching the catalog, creating orders, and retrieving a customer's order history. The document model and embedded order information made these operations efficient while reducing the need for joins.
+
+The addition of large-scale analytics changed the design requirements significantly. Running complex aggregation queries directly on a very large orders collection could negatively affect the performance of the e-commerce application. To address this issue, I introduced denormalized and pre-aggregated collections such as `sales_analytics` and `product_analytics`. These collections store frequently required metrics, including total revenue, number of orders, products sold, and product sales performance. This approach reduces the amount of data that must be processed for analytical queries and improves query performance.
+
+The scalability requirements also influenced the architecture. The refactored design is intended to use sharding to distribute large volumes of orders across multiple nodes. Replication through a MongoDB replica set improves availability and provides fault tolerance if a database node fails.
+
+The refactored design therefore provides better scalability, availability, and analytical performance than the initial design. However, these improvements introduce trade-offs, particularly increased storage usage and additional complexity for maintaining pre-aggregated data. Strong consistency remains important for critical operations such as orders and payment status, while eventual consistency can be acceptable for analytical data.

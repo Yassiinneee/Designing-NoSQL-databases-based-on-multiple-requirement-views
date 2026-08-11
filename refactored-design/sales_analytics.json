@@ -1,0 +1,23 @@
+{
+  "_id": "2026-08-11",
+  "date": "2026-08-11",
+  "totalOrders": 12540,
+  "totalRevenue": 4587000,
+  "currency": "TND",
+  "totalProductsSold": 18950,
+  "averageOrderValue": 365.94,
+  "topCategories": [
+    {
+      "category": "Computers",
+      "sales": 1250000
+    },
+    {
+      "category": "Accessories",
+      "sales": 850000
+    },
+    {
+      "category": "Smartphones",
+      "sales": 920000
+    }
+  ]
+}

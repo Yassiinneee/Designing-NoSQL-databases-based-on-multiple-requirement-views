@@ -1,0 +1,11 @@
+{
+  "_id": "PROD001",
+  "productId": "PROD001",
+  "productName": "Laptop Lenovo ThinkPad",
+  "category": "Computers",
+  "totalUnitsSold": 15820,
+  "totalRevenue": 50624000,
+  "numberOfOrders": 12350,
+  "averagePrice": 3200,
+  "lastUpdated": "2026-08-11T11:30:00Z"
+}

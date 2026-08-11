@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "_id",
+    "createdAt"
+  ],
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "required": [
+        "city",
+        "country",
+        "street"
+      ],
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        }
+      }
+    },
+    "brand": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "object",
+      "required": [
+        "email",
+        "name"
+      ],
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "delivery": {
+      "type": "object",
+      "required": [
+        "address",
+        "status"
+      ],
+      "properties": {
+        "address": {
+          "type": "object",
+          "required": [
+            "city",
+            "country",
+            "street"
+          ],
+          "properties": {
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "street": {
+              "type": "string"
+            }
+          }
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "productId",
+          "quantity",
+          "total",
+          "unitPrice"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "productId": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer"
+          },
+          "unitPrice": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "totalAmount": {
+      "type": "integer"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    }
+  },
+  "$defs": {}
+}
